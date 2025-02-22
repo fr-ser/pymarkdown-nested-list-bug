@@ -6,6 +6,10 @@ This repo is there to reproduce a bug in PyMarkdown.
 
 The repo uses poetry to manage the dependencies, but any other way to install `pymarkdownlnt` is also fine.
 
+1. Install Python (this example uses 3.12)
+2. Install Poetry
+3. Create a virtual environment and install dependencies via poetry: `poetry install --no-root`
+
 ## Reproduction Steps
 
 1. Run command: `poetry run pymarkdown scan bug.md`
