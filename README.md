@@ -2,6 +2,8 @@
 
 This repo is there to reproduce a bug in PyMarkdown.
 
+Here is the bug: <https://github.com/jackdewinter/pymarkdown/issues/1357>
+
 ## Setup
 
 The repo uses poetry to manage the dependencies, but any other way to install `pymarkdownlnt` is also fine.
