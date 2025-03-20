@@ -33,13 +33,13 @@ wcwidth = "*"
 
 [[package]]
 name = "pymarkdownlnt"
-version = "0.9.28"
+version = "0.9.29"
 description = "A GitHub Flavored Markdown compliant Markdown linter."
 optional = false
 python-versions = ">=3.9.0"
 files = [
-    {file = "pymarkdownlnt-0.9.28-py3-none-any.whl", hash = "sha256:40af0406ed9fb78818e9c4b41c98a12b764ad39437e4f1f4bdce99b3c6cbbc59"},
-    {file = "pymarkdownlnt-0.9.28.tar.gz", hash = "sha256:41d03819b0f5e9f74e377bf70183c2678993f13de3622d49b369fc2d567afaf1"},
+    {file = "pymarkdownlnt-0.9.29-py3-none-any.whl", hash = "sha256:8492992c75c94d1d6dd64a8c49c8ce63a171bffb45a2a054235440fe30ebdb34"},
+    {file = "pymarkdownlnt-0.9.29.tar.gz", hash = "sha256:cfa37fe778fbaa11714bcc617e90f7293c628cfadce9c2ec3ea89d9b24aca086"},
 ]
 
 [package.dependencies]
@@ -186,4 +186,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-content-hash = "7e982a1fd2a981657fa2293ef27d38085fe8b5922d73c21875e0b330956d909b"
+content-hash = "119bd5eb42b178a6c588893ed420cb3cff80f003a32607ac819136b50c532420"
