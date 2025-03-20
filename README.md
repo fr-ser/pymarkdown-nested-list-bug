@@ -19,19 +19,7 @@ The repo uses poetry to manage the dependencies, but any other way to install `p
    - See this output:
 
      ```txt
-     bug.md:14:5: MD007: Unordered list indentation [Expected: 4, Actual=5] (ul-indent)
-     bug.md:15:5: MD007: Unordered list indentation [Expected: 4, Actual=5] (ul-indent)
+     bug.md:17:5: MD005: Inconsistent indentation for list items at the same level [Expected: 3; Actual: 4] (list-indent)
      ```
 
-   - in reality the indentation is already at 4
-
-2. Run command: `poetry run pymarkdown fix bug.md`
-
-   - This command always keeps "changing" the file and never stabilizes
-   - The only change that is done is removing a space from the second item
-     - This results in this scan output:
-
-       ```txt
-       bug.md:14:5: MD007: Unordered list indentation [Expected: 4, Actual=5] (ul-indent)
-       bug.md:15:4: MD005: Inconsistent indentation for list items at the same level [Expected: 4; Actual: 3] (list-indent)
-       ```
+   - as the item at line 17 is in a list with a double digit number it should be 4 (and not 3)
